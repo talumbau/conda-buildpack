@@ -21,6 +21,7 @@ CACHED_DIRS=".heroku"
 
 # Static configurations for virtualenv caches.
 PROFILE_PATH="$BUILD_DIR/.profile.d/miniconda.sh"
+CONDARC="$BUILD_DIR/.condarc"
 
 # Sanitizing environment variables.
 unset GIT_DIR PYTHONHOME PYTHONPATH LD_LIBRARY_PATH LIBRARY_PATH
