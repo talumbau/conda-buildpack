@@ -13,7 +13,7 @@ fi
 
 if [ -f requirements.txt ]; then
     puts-step "Installing dependencies using Pip"
-    pip install --verbose -r requirements.txt  --exists-action=w --allow-all-external | indent
+    yes | pip install --verbose -r requirements.txt  --exists-action=w --allow-all-external | indent
 fi
 
 conda clean -pt
