@@ -18,7 +18,4 @@ if [ -f requirements.txt ]; then
     pip install --verbose -r requirements.txt  --exists-action=w --allow-all-external | indent
     puts-step "Finished installing dependencies using Pip"
 fi
-conda remove --force mock
-conda remove --force pytest
-pip uninstall -y requests-mock
 conda clean -y --all
