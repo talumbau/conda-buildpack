@@ -21,5 +21,4 @@ fi
 conda remove --force mock
 conda remove --force pytest
 pip uninstall -y requests-mock
-conda remove --force xlrd
 conda clean -y --all
